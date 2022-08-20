@@ -1,0 +1,44 @@
+font:
+  normal:
+    family: Monaco
+    style: Regular
+  size: 10.0
+
+window:
+  padding:
+    x: 7
+    y: 5
+  opacity: 0.9
+
+# BEGIN ACE
+colors:
+  primary:
+    background: '#090301'
+    foreground: '#f1e2d9'
+  cursor:
+    text:       '#090301'
+    cursor:     '#f1e2d9'
+  normal:
+    black:      '#090301'
+    red:        '#EBB173'
+    green:      '#EDBA79'
+    yellow:     '#EEBB86'
+    blue:       '#FACE90'
+    magenta:    '#F8D5AF'
+    cyan:       '#FEE4B3'
+    white:      '#f1e2d9'
+  bright:
+    black:      '#a89e97'
+    red:        '#EBB173'
+    green:      '#EDBA79'
+    yellow:     '#EEBB86'
+    blue:       '#FACE90'
+    magenta:    '#F8D5AF'
+    cyan:       '#FEE4B3'
+    white:      '#f1e2d9'
+# END ACE
+
+
+key_bindings:
+  - { key: J,         mods: Alt|Shift, action: IncreaseFontSize                       }
+  - { key: K,         mods: Alt|Shift, action: DecreaseFontSize                        }
